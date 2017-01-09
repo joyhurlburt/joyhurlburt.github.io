@@ -101,7 +101,7 @@ header {
 
 header .container {
   padding-top: 250px;
-  padding-bottom: 225px;
+  padding-bottom: 250px;
 }
 
 header .intro-text .name {
@@ -121,13 +121,13 @@ header .intro-text .skills {
 @media (min-width: 768px) {
   header .container {
 	padding-top: 250px;
-	padding-bottom: 225px;
+	padding-bottom: 235px;
   }
   header .intro-text .name {
 	font-size: 8em;
   }
   header .intro-text .skills {
-	font-size: 3.75em;
+	font-size: 3.5em;
   }
 }
 
@@ -152,10 +152,16 @@ header .intro-text .skills {
     width: 100%;
     position: relative;
     border: 1px solid #FFF;
-    font-size: 36px;
+    font-size: 1.75em;
     margin-top: 20px;
     margin-bottom: 20px;
     padding: 2px 15px;
+}
+
+@media (min-width: 768px) {
+	#portfolio article { 
+	    font-size: 2em;
+	}
 }
 
 #portfolio article:hover {
@@ -170,8 +176,80 @@ article .description {
     font-weight: 300;
 }
 
+.portfolio-modal .modal-content h2 {
+    color: #E05E6B;
+}
+
+.carousel-control {
+	opacity: 1;
+}
+
+.carousel-control.right, .carousel-control.left {
+	background-image: none;
+}
+
+.carousel-control .glyphicon-chevron-right, .carousel-control .glyphicon-chevron-left {
+    color: #FFF;
+}
+
+.carousel-control .glyphicon-chevron-right:active, .carousel-control .glyphicon-chevron-right:hover, .carousel-control .glyphicon-chevron-right:focus, .carousel-control .glyphicon-chevron-right:visited, .carousel-control .glyphicon-chevron-left:active, .carousel-control .glyphicon-chevron-left:hover, .carousel-control .glyphicon-chevron-left:focus, .carousel-control .glyphicon-chevron-left:visited {
+    color: #FFF;
+    opacity: 0.5;
+}
+
+.carousel-control .glyphicon-chevron-right {
+    right: 45%;
+}
+
+.carousel-control .glyphicon-chevron-left {
+    left: 45%;
+}
+
+.carousel-indicators {
+	margin-top: 25px;
+	margin-bottom: 0px;
+	bottom: 0px;
+}
+
+.carousel-indicators li {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #000 \9;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #EE6471;
+    border-radius: 10px;
+}
+
+.carousel-indicators .active {
+    width: 12px;
+    height: 12px;
+    margin: 0;
+    background-color: #EE6471;
+}
+
+.modal-body p {
+	font-size: 1.0em;
+}
+
+.modal-body ul {
+	font-size: 0.75em;
+}
+
+@media (min-width: 768px) {
+	.modal-body p {
+		font-size: 1.25em;
+	}
+	.modal-body ul {
+		font-size: 1.0em;
+	}
+}
+
 #contact .col-lg-8 {
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 .help-block {
