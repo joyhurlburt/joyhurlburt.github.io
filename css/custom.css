@@ -258,6 +258,24 @@ article .description {
 	.modal-body ul {
 		font-size: 1.0em;
 	}
+
+	.modal-content .col-lg-12 {
+    	width: auto;
+    	margin: auto;
+    	display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+	.modal-content .col-lg-12 {
+		float: none;
+	}
+}
+
+.carousel-inner > .item > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 #contact .col-lg-8 {
@@ -301,4 +319,3 @@ footer li {
 
 .footer-below p {
 	font-size: 14px;
-}
