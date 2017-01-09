@@ -239,8 +239,12 @@ article .description {
 	font-size: 0.75em;
 }
 
+.modal-content .item {
+	min-height: 300px;
+	max-height: 450px;
+}
+
 .modal-content img {
-	min-height: 450px;
 	max-height: 450px;
 	margin: auto;
 	display: block;
