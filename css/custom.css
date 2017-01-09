@@ -206,7 +206,7 @@ article .description {
 }
 
 .carousel-indicators {
-	margin-top: 25px;
+	margin-top: 50px;
 	margin-bottom: 0px;
 	bottom: 0px;
 }
@@ -237,6 +237,14 @@ article .description {
 
 .modal-body ul {
 	font-size: 0.75em;
+}
+
+.modal-content img {
+	min-height: 450px;
+	max-height: 450px;
+	margin: auto;
+	display: block;
+
 }
 
 @media (min-width: 768px) {
